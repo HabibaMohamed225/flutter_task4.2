@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'login_screen.dart';
 import 'otp_screen.dart';
 import 'signup_screen.dart';
+import 'welcome_screen.dart';
+import 'list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,11 +19,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Tajawal',
       ),
-      initialRoute: '/signup',
+      initialRoute: '/welcome_screen',
       routes: {
+        '/welcome_screen': (context) => const WelcomeScreen(),
         '/login': (context) => const LoginScreen(),
         '/otp': (context) => const OtpScreen(),
         '/signup': (context) => const SignupScreen(),
+        '/list': (context) => const ListScreen(),
       },
     );
   }

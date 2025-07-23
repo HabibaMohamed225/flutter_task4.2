@@ -94,7 +94,7 @@ class OtpScreen extends StatelessWidget {
                           ),
                         ),
                         onPressed: () {
-                          Navigator.pop(context);
+                          Navigator.pushNamed(context, '/list');
                         },
                         child: Text(
                           AppStrings.confirmButton,

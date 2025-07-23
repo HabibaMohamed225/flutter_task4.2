@@ -129,7 +129,7 @@ class SignupContent extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
-                    Navigator.pop(context);
+                    Navigator.pushReplacementNamed(context, '/login');
                   },
                   child: Text(
                     'إنشاء حساب',
