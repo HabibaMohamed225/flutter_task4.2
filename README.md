@@ -1,6 +1,6 @@
-# second_flutter
+# Flutter Task 4
 
-A new Flutter project.
+This is a Flutter application created for training purposes.
 
 ## Getting Started
 
